@@ -31,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         Button btn = findViewById(R.id.btnOpenThird);
         btn.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
-            // Trimite mesaj și 2 valori întregi (Punctul 8)
+
             Bundle bundle = new Bundle();
             bundle.putString("mesaj", "Salut din Activitatea 2!");
             bundle.putInt("numar1", 15);
