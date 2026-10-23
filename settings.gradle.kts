@@ -23,4 +23,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Ilie_Diana_ActivitateDAM2026"
-include(":app")
+include(":Laborator2-3")
+include(":Laborator4")
