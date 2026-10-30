@@ -13,12 +13,12 @@
         android:text="Adaugă adidas"
         android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/tvAfisare"
+    <Button
+        android:id="@+id/btnAfiseaza"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:text="Afișează adidași"
         android:textSize="16sp"
-        android:gravity="center" />
+        android:layout_marginTop="16dp" />
 
 </LinearLayout>

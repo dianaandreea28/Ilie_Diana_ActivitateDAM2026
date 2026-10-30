@@ -84,8 +84,10 @@ public class PreluareDateAdidas extends AppCompatActivity {
             Bundle bundle = new Bundle();
             bundle.putSerializable("obiect_adidas", adidas);
 
+
+
             Intent intentReturn = new Intent();
-            intentReturn.putExtra("bachet_date", bundle);
+            intentReturn.putExtra("pachet_date", bundle);
             setResult(RESULT_OK, intentReturn);
             finish();
         });
